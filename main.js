@@ -38,7 +38,7 @@ function check() {
 
 function gotResults(error, results){
     if(error){
-        console.error(error);
+        console.log(error);
     }
     else{
         console.log(results);
